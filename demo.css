@@ -1,7 +1,7 @@
 body {	
 	padding-top: 20px;
 	padding-bottom: 20px;
-	background-image: url('img/background.png');
+	background-image: url('img/background.PNG');
 }
 video.header {
 	display: none;
