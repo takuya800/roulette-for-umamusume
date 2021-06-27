@@ -107,3 +107,13 @@ div.param_label {
 div.ui-slider {
 	width: 300px;
 }
+
+/* スマホ用 */
+@media screen and (max-width: 480px) {
+	img.gif {
+		height: 120px;
+	}
+	img.header {
+		height: 50px;
+	}
+}
