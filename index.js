@@ -72,7 +72,7 @@ jQuery(()=> {
 		$(`#id_video_hukukitaru`).show();
 		let video = $(`#id_video_hukukitaru`).get(0);
 		if(video) video.play();
-		$("#id_img_hukidashi").attr('src', 'img/吹き出し2.PNG');
+		$("#id_img_hukidashi").attr('src', 'img/吹き出し2.png');
 		
 		// ボタン連打回避
 		$('.start').prop('disabled', true);
@@ -80,12 +80,12 @@ jQuery(()=> {
 		setTimeout(()=> {
 			$(`#id_gif_hukukitaru`).show();
 			$(`#id_video_hukukitaru`).hide();
-			$("#id_img_hukidashi").attr('src', 'img/吹き出し3.PNG');
+			$("#id_img_hukidashi").attr('src', 'img/吹き出し3.png');
 			$(`#roulette_list${mode}`).roulette('stop');
 		}, 7 * 1000);
 		// 吹き出し変更
 		setTimeout(()=> {
-			$("#id_img_hukidashi").attr('src', 'img/吹き出し1.PNG');
+			$("#id_img_hukidashi").attr('src', 'img/吹き出し1.png');
 			$('.start').prop('disabled', false);
 		}, 10 * 1000);
 	});
