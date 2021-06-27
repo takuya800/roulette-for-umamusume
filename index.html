@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>ウマ娘ルームマッチ</title>
+		<link rel="stylesheet" href="bootstrap.css"></link>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/themes/ui-lightness/jquery-ui.css">
+		<link rel="stylesheet" href="bootstrap-responsive.css"></link>
+		<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/ui-lightness/jquery-ui.css">
+		<link rel="stylesheet" href="demo.css"></link>
+		<link rel="stylesheet" href="index.css"></link>
+	</head>
+	<body>
+		<div class="container background-all">
+			<div class="header">
+				<img id="id_img_header" src="img/ロゴ.PNG" class="header"/>
+				<img id="id_gif_hukukitaru" src="img/マチカネフクキタル.gif" class="gif"/>
+				<video id="id_video_hukukitaru" src="img/マチカネフクキタル.mp4" class="header"></video>
+				<img id="id_img_header" src="img/ロゴ.PNG" class="header"/>
+			</div>
+			<img id="id_img_hukidashi" src="img/吹き出し1.PNG" class="hukidashi"/>
+			<div class="roulette_container" >
+				<div id="roulette_list3" class="roulette" style="display:none;"></div>
+				<div id="roulette_list2" class="roulette" style="display:none;"></div>
+				<div id="roulette_list1" class="roulette" style="display:none;"></div>
+			</div>
+			<div class="btn_container">
+				<p>
+					<button class="btn btn-large btn-primary start"> かしこみ！ </button>
+					<!-- <button class="stop btn-large btn btn-warning" onclick="GetRandomNumber();"> STOP </button> -->
+					<fieldset>
+						<input id="item-1" class="radio-inline__input" type="radio" name="accessible-radio" value="item-1" checked="checked"/>
+							<label class="radio-inline__label" for="item-1">ALL</label>
+						<input id="item-2" class="radio-inline__input" type="radio" name="accessible-radio" value="item-2"/>
+							<label class="radio-inline__label" for="item-2">芝のみ
+							</label>
+						<input id="item-3" class="radio-inline__input" type="radio" name="accessible-radio" value="item-3"/>
+							<label class="radio-inline__label" for="item-3">ダートのみ</label>
+					</fieldset>
+				</p>
+			</div>		
+		</div>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/jquery-ui.min.js"></script>
+		<script src="index.js"></script>
+		<script src="roulette.js-master/roulette.js"></script>
+	</body>
+</html>
